@@ -4,9 +4,9 @@
     <AzureFunctionsVersion>v4</AzureFunctionsVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="CDMS.CP.Platform.Common.Connectors.Standard" Version="5.0.3.7" />
-    <PackageReference Include="CDMS.CP.Platform.Common.FunctionStartup" Version="2.0.0.12" />
-    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.1.1" />
+    <PackageReference Include="CDMS.CP.Platform.Common.Connectors.Standard" Version="11.0.0" />
+    <PackageReference Include="CDMS.CP.Platform.Common.FunctionStartup" Version="8.5.4.1" />
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.6.0" />
   </ItemGroup>
   <ItemGroup>
         <ProjectReference Include="..\TenantCatalog.Application\TenantCatalog.Application.csproj"/>
