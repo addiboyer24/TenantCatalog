@@ -1,9 +1,19 @@
 version: 2
+
+registries:
+  cdms-cp-common:
+    type: nuget-feed
+    url: https://ma-cdms.pkgs.visualstudio.com/_packaging/CDMS.CP.Common/nuget/v3/index.json
+    username: addisonb@consumerdirectcare.com
+    password: "${{ secrets.NUGET_FEED_PAT }}"
+
 updates:
   - package-ecosystem: "nuget"
     directory: "/TenantCatalog/TenantCatalog/TenantCatalog.Application/"
     schedule:
       interval: "weekly"
+    registries:
+      - cdms-cp-common
     open-pull-requests-limit: 10
     commit-message:
       prefix: "deps"
@@ -13,6 +23,8 @@ updates:
     directory: "/TenantCatalog/TenantCatalog/TenantCatalog.Domain/"
     schedule:
       interval: "weekly"
+    registries:
+      - cdms-cp-common
     open-pull-requests-limit: 10
     commit-message:
       prefix: "deps"
@@ -22,6 +34,8 @@ updates:
     directory: "/TenantCatalog/TenantCatalog/TenantCatalog.Events/"
     schedule:
       interval: "weekly"
+    registries:
+      - cdms-cp-common
     open-pull-requests-limit: 10
     commit-message:
       prefix: "deps"
@@ -31,6 +45,8 @@ updates:
     directory: "/TenantCatalog/TenantCatalog/TenantCatalog.Infrastructure/"
     schedule:
       interval: "weekly"
+    registries:
+      - cdms-cp-common
     open-pull-requests-limit: 10
     commit-message:
       prefix: "deps"
@@ -40,6 +56,8 @@ updates:
     directory: "/TenantCatalog/TenantCatalog/TenantCatalog.Web.API/"
     schedule:
       interval: "weekly"
+    registries:
+      - cdms-cp-common
     open-pull-requests-limit: 10
     commit-message:
       prefix: "deps"
@@ -49,6 +67,8 @@ updates:
     directory: "/TenantCatalog/TenantCatalog/Tests/"
     schedule:
       interval: "weekly"
+    registries:
+      - cdms-cp-common
     open-pull-requests-limit: 10
     commit-message:
       prefix: "deps"
