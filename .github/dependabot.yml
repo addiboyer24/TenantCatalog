@@ -2,7 +2,56 @@
 version: 2
 updates:
   - package-ecosystem: "nuget"
-    directory: "/TenantCatalog/" # Location of your .csproj or .sln file (change if needed)
+    directory: "/TenantCatalog/TenantCatalog.Application/" # Location of your .csproj or .sln file (change if needed)
+    schedule:
+      interval: "weekly" # or "daily", "monthly"
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: "deps"
+      include: "scope"
+  - package-ecosystem: "nuget"
+    directory: "/TenantCatalog/TenantCatalog.Application/" # Location of your .csproj or .sln file (change if needed)
+    schedule:
+      interval: "weekly" # or "daily", "monthly"
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: "deps"
+      include: "scope"
+  - package-ecosystem: "nuget"
+    directory: "/TenantCatalog/TenantCatalog.Domain/" # Location of your .csproj or .sln file (change if needed)
+    schedule:
+      interval: "weekly" # or "daily", "monthly"
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: "deps"
+      include: "scope"
+  - package-ecosystem: "nuget"
+    directory: "/TenantCatalog/TenantCatalog.Events/" # Location of your .csproj or .sln file (change if needed)
+    schedule:
+      interval: "weekly" # or "daily", "monthly"
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: "deps"
+      include: "scope"
+           
+  - package-ecosystem: "nuget"
+    directory: "/TenantCatalog/TenantCatalog.Infrastructure/" # Location of your .csproj or .sln file (change if needed)
+    schedule:
+      interval: "weekly" # or "daily", "monthly"
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: "deps"
+      include: "scope"
+  - package-ecosystem: "nuget"
+    directory: "/TenantCatalog/TenantCatalog.Web.API/" # Location of your .csproj or .sln file (change if needed)
+    schedule:
+      interval: "weekly" # or "daily", "monthly"
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: "deps"
+      include: "scope"
+  - package-ecosystem: "nuget"
+    directory: "/TenantCatalog/Tests/" # Location of your .csproj or .sln file (change if needed)
     schedule:
       interval: "weekly" # or "daily", "monthly"
     open-pull-requests-limit: 10
