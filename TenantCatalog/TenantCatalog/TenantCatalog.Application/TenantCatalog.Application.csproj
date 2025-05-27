@@ -7,14 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CDMS.CP.Platform.Common.Configurations" Version="3.0.0.16" />
-    <PackageReference Include="CDMS.CP.Platform.Common.FeatureManagement" Version="2.0.1.13" />
-    <PackageReference Include="CDMS.CP.Platform.Common.Helpers" Version="4.0.0.9" />
-    <PackageReference Include="CDMS.CP.Platform.Common.Logging.V2" Version="1.2.0" />
-    <PackageReference Include="CDMS.CP.Platform.Common.Models" Version="2.3.4.8" />
-    <PackageReference Include="CDMS.CP.Platform.Common.ServiceBusConnector" Version="5.0.1.4" />
-    <PackageReference Include="CDMS.CP.Platform.Common.Startup" Version="1.0.0.7" />
-    <PackageReference Include="FluentValidation" Version="11.5.0" />
+    <PackageReference Include="CDMS.CP.Platform.Common.Configurations" Version="6.0.0" />
+    <PackageReference Include="CDMS.CP.Platform.Common.FeatureManagement" Version="6.0.0" />
+    <PackageReference Include="CDMS.CP.Platform.Common.Helpers" Version="7.0.0" />
+    <PackageReference Include="CDMS.CP.Platform.Common.Logging.V2" Version="1.2.2" />
+    <PackageReference Include="CDMS.CP.Platform.Common.Models" Version="3.0.2" />
+    <PackageReference Include="CDMS.CP.Platform.Common.ServiceBusConnector" Version="5.0.2.3" />
+    <PackageReference Include="CDMS.CP.Platform.Common.Startup" Version="9.0.0" />
+    <PackageReference Include="FluentValidation" Version="12.0.0" />
   </ItemGroup>
 
   <ItemGroup>
