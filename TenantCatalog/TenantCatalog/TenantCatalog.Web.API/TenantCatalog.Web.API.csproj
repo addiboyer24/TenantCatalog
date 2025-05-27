@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-AppTemplate.Web.API-1B3B8C3F-482E-41FE-AEA5-DDA2FF3BA0B2</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CDMS.CP.Platform.Common.ApiStartup" Version="2.0.0.10" />
+    <PackageReference Include="CDMS.CP.Platform.Common.Models" Version="2.3.4.8" />
+    <PackageReference Include="Finbuckle.MultiTenant.AspNetCore" Version="9.1.4" />
+    <PackageReference Include="Microsoft.ApplicationInsights" Version="2.21.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+    <PackageReference Include="Microsoft.Identity.Web" Version="1.16.0" />
+  </ItemGroup>
+
+ <ItemGroup>
+        <ProjectReference Include="..\TenantCatalog.Application\TenantCatalog.Application.csproj" />
+		<ProjectReference Include="..\TenantCatalog.Infrastructure\TenantCatalog.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AzureFunctionsVersion>v4</AzureFunctionsVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="CDMS.CP.Platform.Common.Connectors.Standard" Version="5.0.3.7" />
+    <PackageReference Include="CDMS.CP.Platform.Common.FunctionStartup" Version="2.0.0.12" />
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+        <ProjectReference Include="..\TenantCatalog.Application\TenantCatalog.Application.csproj"/>
+		<ProjectReference Include="..\TenantCatalog.Infrastructure\TenantCatalog.Infrastructure.csproj"/>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="host.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="local.settings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+C:\Users\AddisonB\source\repos\CDMS-CP Platform Core\SRC\TenantCatalog\TenantCatalog\TenantCatalog.Application\bin\Debug\net6.0\TenantCatalog.Application.deps.json
+C:\Users\AddisonB\source\repos\CDMS-CP Platform Core\SRC\TenantCatalog\TenantCatalog\TenantCatalog.Application\bin\Debug\net6.0\TenantCatalog.Application.dll
+C:\Users\AddisonB\source\repos\CDMS-CP Platform Core\SRC\TenantCatalog\TenantCatalog\TenantCatalog.Application\bin\Debug\net6.0\TenantCatalog.Application.pdb
+C:\Users\AddisonB\source\repos\CDMS-CP Platform Core\SRC\TenantCatalog\TenantCatalog\TenantCatalog.Application\bin\Debug\net6.0\TenantCatalog.Domain.dll
+C:\Users\AddisonB\source\repos\CDMS-CP Platform Core\SRC\TenantCatalog\TenantCatalog\TenantCatalog.Application\bin\Debug\net6.0\TenantCatalog.Domain.pdb
+C:\Users\AddisonB\source\repos\CDMS-CP Platform Core\SRC\TenantCatalog\TenantCatalog\TenantCatalog.Application\obj\Debug\net6.0\TenantCatalog.Application.csproj.AssemblyReference.cache
+C:\Users\AddisonB\source\repos\CDMS-CP Platform Core\SRC\TenantCatalog\TenantCatalog\TenantCatalog.Application\obj\Debug\net6.0\TenantCatalog.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AddisonB\source\repos\CDMS-CP Platform Core\SRC\TenantCatalog\TenantCatalog\TenantCatalog.Application\obj\Debug\net6.0\TenantCatalog.Application.AssemblyInfoInputs.cache
+C:\Users\AddisonB\source\repos\CDMS-CP Platform Core\SRC\TenantCatalog\TenantCatalog\TenantCatalog.Application\obj\Debug\net6.0\TenantCatalog.Application.AssemblyInfo.cs
+C:\Users\AddisonB\source\repos\CDMS-CP Platform Core\SRC\TenantCatalog\TenantCatalog\TenantCatalog.Application\obj\Debug\net6.0\TenantCatalog.Application.csproj.CoreCompileInputs.cache
+C:\Users\AddisonB\source\repos\CDMS-CP Platform Core\SRC\TenantCatalog\TenantCatalog\TenantCatalog.Application\obj\Debug\net6.0\TenantCatalog.Application.sourcelink.json
+C:\Users\AddisonB\source\repos\CDMS-CP Platform Core\SRC\TenantCatalog\TenantCatalog\TenantCatalog.Application\obj\Debug\net6.0\TenantCa.F6C78ED2.Up2Date
+C:\Users\AddisonB\source\repos\CDMS-CP Platform Core\SRC\TenantCatalog\TenantCatalog\TenantCatalog.Application\obj\Debug\net6.0\TenantCatalog.Application.dll
+C:\Users\AddisonB\source\repos\CDMS-CP Platform Core\SRC\TenantCatalog\TenantCatalog\TenantCatalog.Application\obj\Debug\net6.0\refint\TenantCatalog.Application.dll
+C:\Users\AddisonB\source\repos\CDMS-CP Platform Core\SRC\TenantCatalog\TenantCatalog\TenantCatalog.Application\obj\Debug\net6.0\TenantCatalog.Application.pdb
+C:\Users\AddisonB\source\repos\CDMS-CP Platform Core\SRC\TenantCatalog\TenantCatalog\TenantCatalog.Application\obj\Debug\net6.0\ref\TenantCatalog.Application.dll

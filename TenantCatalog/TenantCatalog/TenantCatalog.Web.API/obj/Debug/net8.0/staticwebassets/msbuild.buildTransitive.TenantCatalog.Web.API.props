@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\TenantCatalog.Web.API.props" />
+</Project>

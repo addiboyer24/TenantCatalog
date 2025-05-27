@@ -1,0 +1,23 @@
+[
+  {
+    "ContainingType": "TenantCatalog.Web.API.Controllers.AppTemplateController",
+    "Method": "GetTenantInfo",
+    "RelativePath": "apptemplate/{tenantId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tenantId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "tenantId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

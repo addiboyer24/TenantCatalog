@@ -1,0 +1,59 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "TenantCatalog.Web.API",
+    "version": "1.0"
+  },
+  "paths": {
+    "/apptemplate/{tenantId}": {
+      "get": {
+        "tags": [
+          "AppTemplate"
+        ],
+        "operationId": "GetTenantInfo",
+        "parameters": [
+          {
+            "name": "tenantId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "tenantId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "CompanyContext",
+            "in": "header",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "Enter the Bearer Authorization string as following: `Bearer Generated-JWT-Token`",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}

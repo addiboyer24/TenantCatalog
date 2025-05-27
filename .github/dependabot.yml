@@ -1,0 +1,11 @@
+---
+version: 2
+updates:
+  - package-ecosystem: "nuget"
+    directory: "/" # Location of your .csproj or .sln file (change if needed)
+    schedule:
+      interval: "weekly" # or "daily", "monthly"
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: "deps"
+      include: "scope"

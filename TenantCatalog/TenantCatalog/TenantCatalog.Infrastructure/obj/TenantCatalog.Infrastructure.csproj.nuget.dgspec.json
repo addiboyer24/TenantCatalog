@@ -1,0 +1,285 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\AddisonB\\source\\repos\\TenantCatalog\\TenantCatalog\\TenantCatalog\\TenantCatalog.Infrastructure\\TenantCatalog.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\AddisonB\\source\\repos\\TenantCatalog\\TenantCatalog\\TenantCatalog\\TenantCatalog.Application\\TenantCatalog.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AddisonB\\source\\repos\\TenantCatalog\\TenantCatalog\\TenantCatalog\\TenantCatalog.Application\\TenantCatalog.Application.csproj",
+        "projectName": "TenantCatalog.Application",
+        "projectPath": "C:\\Users\\AddisonB\\source\\repos\\TenantCatalog\\TenantCatalog\\TenantCatalog\\TenantCatalog.Application\\TenantCatalog.Application.csproj",
+        "packagesPath": "C:\\Users\\AddisonB\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AddisonB\\source\\repos\\TenantCatalog\\TenantCatalog\\TenantCatalog\\TenantCatalog.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AddisonB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\AddisonB\\source\\repos\\TenantCatalog\\TenantCatalog\\TenantCatalog\\TenantCatalog.Domain\\TenantCatalog.Domain.csproj": {
+                "projectPath": "C:\\Users\\AddisonB\\source\\repos\\TenantCatalog\\TenantCatalog\\TenantCatalog\\TenantCatalog.Domain\\TenantCatalog.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "CDMS.CP.Platform.Common.Configurations": {
+              "target": "Package",
+              "version": "[3.0.0.16, )"
+            },
+            "CDMS.CP.Platform.Common.FeatureManagement": {
+              "target": "Package",
+              "version": "[2.0.1.13, )"
+            },
+            "CDMS.CP.Platform.Common.Helpers": {
+              "target": "Package",
+              "version": "[4.0.0.9, )"
+            },
+            "CDMS.CP.Platform.Common.Logging.V2": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "CDMS.CP.Platform.Common.Models": {
+              "target": "Package",
+              "version": "[2.3.4.8, )"
+            },
+            "CDMS.CP.Platform.Common.ServiceBusConnector": {
+              "target": "Package",
+              "version": "[5.0.1.4, )"
+            },
+            "CDMS.CP.Platform.Common.Startup": {
+              "target": "Package",
+              "version": "[1.0.0.7, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AddisonB\\source\\repos\\TenantCatalog\\TenantCatalog\\TenantCatalog\\TenantCatalog.Domain\\TenantCatalog.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AddisonB\\source\\repos\\TenantCatalog\\TenantCatalog\\TenantCatalog\\TenantCatalog.Domain\\TenantCatalog.Domain.csproj",
+        "projectName": "TenantCatalog.Domain",
+        "projectPath": "C:\\Users\\AddisonB\\source\\repos\\TenantCatalog\\TenantCatalog\\TenantCatalog\\TenantCatalog.Domain\\TenantCatalog.Domain.csproj",
+        "packagesPath": "C:\\Users\\AddisonB\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AddisonB\\source\\repos\\TenantCatalog\\TenantCatalog\\TenantCatalog\\TenantCatalog.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AddisonB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Azure.Messaging.ServiceBus": {
+              "target": "Package",
+              "version": "[7.12.0, )"
+            },
+            "CDMS.CP.Platform.Common.Domain": {
+              "target": "Package",
+              "version": "[1.0.0.3, )"
+            },
+            "CDMS.CP.Platform.Common.Helpers": {
+              "target": "Package",
+              "version": "[4.0.0.9, )"
+            },
+            "CDMS.CP.Platform.Common.Models": {
+              "target": "Package",
+              "version": "[2.3.4.8, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AddisonB\\source\\repos\\TenantCatalog\\TenantCatalog\\TenantCatalog\\TenantCatalog.Infrastructure\\TenantCatalog.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AddisonB\\source\\repos\\TenantCatalog\\TenantCatalog\\TenantCatalog\\TenantCatalog.Infrastructure\\TenantCatalog.Infrastructure.csproj",
+        "projectName": "TenantCatalog.Infrastructure",
+        "projectPath": "C:\\Users\\AddisonB\\source\\repos\\TenantCatalog\\TenantCatalog\\TenantCatalog\\TenantCatalog.Infrastructure\\TenantCatalog.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\AddisonB\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AddisonB\\source\\repos\\TenantCatalog\\TenantCatalog\\TenantCatalog\\TenantCatalog.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AddisonB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\AddisonB\\source\\repos\\TenantCatalog\\TenantCatalog\\TenantCatalog\\TenantCatalog.Application\\TenantCatalog.Application.csproj": {
+                "projectPath": "C:\\Users\\AddisonB\\source\\repos\\TenantCatalog\\TenantCatalog\\TenantCatalog\\TenantCatalog.Application\\TenantCatalog.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "CDMS.CP.Platform.Common.Connectors.Standard": {
+              "target": "Package",
+              "version": "[5.0.3.7, )"
+            },
+            "CDMS.CP.Platform.Common.Models": {
+              "target": "Package",
+              "version": "[2.3.4.8, )"
+            },
+            "Finbuckle.MultiTenant.AspNetCore": {
+              "target": "Package",
+              "version": "[9.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

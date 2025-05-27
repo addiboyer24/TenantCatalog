@@ -1,0 +1,27 @@
+<Project Sdk="MSTest.Sdk/3.6.4">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UseVSTest>true</UseVSTest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CDMS.CP.Platform.Common.ArchitectureTests" Version="1.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\TenantCatalog.Application\TenantCatalog.Application.csproj" />
+    <ProjectReference Include="..\..\TenantCatalog.Domain\TenantCatalog.Domain.csproj" />
+    <ProjectReference Include="..\..\TenantCatalog.Infrastructure\TenantCatalog.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="testsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

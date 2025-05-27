@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CDMS.CP.Platform.Common.Connectors.Standard" Version="5.0.3.7" />
+    <PackageReference Include="CDMS.CP.Platform.Common.Models" Version="2.3.4.8" />
+    <PackageReference Include="Finbuckle.MultiTenant.AspNetCore" Version="9.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+        <ProjectReference Include="..\TenantCatalog.Application\TenantCatalog.Application.csproj" />
+  </ItemGroup>
+
+</Project>

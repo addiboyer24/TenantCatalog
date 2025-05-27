@@ -1,0 +1,13 @@
+C:\Users\AddisonB\source\repos\CDMS-CP Platform Core\SRC\TenantCatalog\TenantCatalog\TenantCatalog.Domain\bin\Debug\net6.0\TenantCatalog.Domain.deps.json
+C:\Users\AddisonB\source\repos\CDMS-CP Platform Core\SRC\TenantCatalog\TenantCatalog\TenantCatalog.Domain\bin\Debug\net6.0\TenantCatalog.Domain.dll
+C:\Users\AddisonB\source\repos\CDMS-CP Platform Core\SRC\TenantCatalog\TenantCatalog\TenantCatalog.Domain\bin\Debug\net6.0\TenantCatalog.Domain.pdb
+C:\Users\AddisonB\source\repos\CDMS-CP Platform Core\SRC\TenantCatalog\TenantCatalog\TenantCatalog.Domain\obj\Debug\net6.0\TenantCatalog.Domain.csproj.AssemblyReference.cache
+C:\Users\AddisonB\source\repos\CDMS-CP Platform Core\SRC\TenantCatalog\TenantCatalog\TenantCatalog.Domain\obj\Debug\net6.0\TenantCatalog.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AddisonB\source\repos\CDMS-CP Platform Core\SRC\TenantCatalog\TenantCatalog\TenantCatalog.Domain\obj\Debug\net6.0\TenantCatalog.Domain.AssemblyInfoInputs.cache
+C:\Users\AddisonB\source\repos\CDMS-CP Platform Core\SRC\TenantCatalog\TenantCatalog\TenantCatalog.Domain\obj\Debug\net6.0\TenantCatalog.Domain.AssemblyInfo.cs
+C:\Users\AddisonB\source\repos\CDMS-CP Platform Core\SRC\TenantCatalog\TenantCatalog\TenantCatalog.Domain\obj\Debug\net6.0\TenantCatalog.Domain.csproj.CoreCompileInputs.cache
+C:\Users\AddisonB\source\repos\CDMS-CP Platform Core\SRC\TenantCatalog\TenantCatalog\TenantCatalog.Domain\obj\Debug\net6.0\TenantCatalog.Domain.sourcelink.json
+C:\Users\AddisonB\source\repos\CDMS-CP Platform Core\SRC\TenantCatalog\TenantCatalog\TenantCatalog.Domain\obj\Debug\net6.0\TenantCatalog.Domain.dll
+C:\Users\AddisonB\source\repos\CDMS-CP Platform Core\SRC\TenantCatalog\TenantCatalog\TenantCatalog.Domain\obj\Debug\net6.0\refint\TenantCatalog.Domain.dll
+C:\Users\AddisonB\source\repos\CDMS-CP Platform Core\SRC\TenantCatalog\TenantCatalog\TenantCatalog.Domain\obj\Debug\net6.0\TenantCatalog.Domain.pdb
+C:\Users\AddisonB\source\repos\CDMS-CP Platform Core\SRC\TenantCatalog\TenantCatalog\TenantCatalog.Domain\obj\Debug\net6.0\ref\TenantCatalog.Domain.dll

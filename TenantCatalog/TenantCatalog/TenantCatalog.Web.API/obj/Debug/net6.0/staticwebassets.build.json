@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ms77CYNtJSJI89VsOUasXIf2pEbFk0UvSZDejV1YB9Y=",
+  "Source": "TenantCatalog.Web.API",
+  "BasePath": "_content/TenantCatalog.Web.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
