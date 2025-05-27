@@ -6,7 +6,6 @@ namespace TenantCatalog.Web.API.Controllers
 {
     using CDMS.CP.Platform.Common.Helpers;
     using Finbuckle.MultiTenant;
-    using Finbuckle.MultiTenant.Abstractions;
     using Microsoft.AspNetCore.Mvc;
     using System.Data.Common;
     using System.Web.Http;

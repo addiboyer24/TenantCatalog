@@ -10,7 +10,7 @@
   <ItemGroup>
     <PackageReference Include="CDMS.CP.Platform.Common.ApiStartup" Version="2.0.0.10" />
     <PackageReference Include="CDMS.CP.Platform.Common.Models" Version="2.3.4.8" />
-    <PackageReference Include="Finbuckle.MultiTenant.AspNetCore" Version="9.1.4" />
+    <PackageReference Include="Finbuckle.MultiTenant.AspNetCore" Version="6.5.0" />
     <PackageReference Include="Microsoft.ApplicationInsights" Version="2.21.0" />
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
     <PackageReference Include="Microsoft.Identity.Web" Version="1.16.0" />
