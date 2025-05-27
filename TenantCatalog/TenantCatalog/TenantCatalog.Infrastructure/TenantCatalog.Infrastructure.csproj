@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -7,9 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CDMS.CP.Platform.Common.Connectors.Standard" Version="5.0.3.7" />
-    <PackageReference Include="CDMS.CP.Platform.Common.Models" Version="2.3.4.8" />
-    <PackageReference Include="Finbuckle.MultiTenant.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="CDMS.CP.Platform.Common.Connectors.Standard" Version="11.0.0" />
+    <PackageReference Include="CDMS.CP.Platform.Common.Models" Version="3.0.2" />
+    <PackageReference Include="Finbuckle.MultiTenant.AspNetCore" Version="9.1.4" />
   </ItemGroup>
 
   <ItemGroup>
